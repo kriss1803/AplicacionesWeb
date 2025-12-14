@@ -1,4 +1,3 @@
-* Desarrollo de Aplicaciones WEB
+# Desarrollo de Aplicaciones WEB
 
-* * Cuarto Semestre UEA
-  * Ing. en Tecnologías de la Información
+## Cuarto Semestre UEA - Ing. en Tecnologías de la Información
