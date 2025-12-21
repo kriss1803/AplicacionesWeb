@@ -1,0 +1,55 @@
+.logonav{
+    width: 300px;
+}
+
+#titulo{
+    color:#c44126;
+}
+
+h2{
+    color: #ed5c1f;
+}
+
+.btn-primary {
+    background-color: #ed5c1f;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #c44126;
+    transform: scale(1.05);
+}
+
+
+.card {
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+
+.footer a {
+    text-decoration: none;
+    margin: 0 5px;
+    color: #333;
+}
+
+.footer a:hover {
+    color: #ed5c1f;
+}
+
+
+@media (max-width: 768px) {
+    body {
+        background-color: #f8f9fa;
+    }
+
+    h1 {
+        color: #ed5c1f;
+    }
+}

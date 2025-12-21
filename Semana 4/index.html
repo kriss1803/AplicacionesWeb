@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mi Página Bootstrap</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#"><img src="assets/img/logo.png" alt="Bongo's Grill" class="logonav"></a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menuNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href=""><i class="fa-solid fa-house"></i> Inicio</a></li>
+                <li class="nav-item"><a class="nav-link" href="#menu">Menú</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<header class="container text-center my-5">
+    <h1 id="titulo">Bongo's Grill</h1>
+    <h3><em>¡Satisfacción en cada bocado!</em></h3>
+</header>
+
+<section class="container mb-5">
+    <div class="row g-4">
+
+        <div class="col-md-4">
+            <div class="card h-100 shadow-sm">
+                <img src="assets/img/hamburguesa.jpeg" class="card-img-top img-fluid" alt="Hamburguesas Bongo's Grill">
+                <div class="card-body">
+                    <h3 class="card-title"><i class="fa-solid fa-burger"></i> Hamburguesas</h3>
+                    <p class="card-text">Jugosas, irresistibles y hechas al momento. Nuestras hamburguesas combinan carne de primera 
+                        calidad, pan suave y fresco, y toppings cuidadosamente seleccionados. Desde las clásicas hasta las más atrevidas, 
+                        cada mordida está llena de sabor y carácter.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card h-100 shadow-sm">
+                <img src="assets/img/alitas.jpeg" class="card-img-top img-fluid" alt="Alitas Bongo's Grill">
+                <div class="card-body">
+                    <h3 class="card-title"><i class="fa-solid fa-drumstick-bite"></i> Alitas</h3>
+                    <p class="card-text">Crujientes por fuera, jugosas por dentro. Nuestras alitas están bañadas en salsas intensas y 
+                        llenas de personalidad: picantes, dulces o ahumadas. Perfectas para compartir… o no. ¡Tú decides!</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card h-100 shadow-sm">
+                <img src="assets/img/ribeye.jpeg" class="card-img-top img-fluid" alt="Comida al grill Bongo's Grill">
+                <div class="card-body">
+                    <h3 class="card-title"><i class="fa-solid fa-fire"></i> Comida al grill</h3>
+                    <p class="card-text">El auténtico sabor del fuego. Carnes y especialidades preparadas al grill para resaltar su 
+                        jugosidad y aroma ahumado. Una experiencia intensa y deliciosa para los amantes de lo bien hecho a la parrilla.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<div class="container text-center mb-5">
+    <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#infoExtra">
+        Mostrar Más
+    </button>
+
+    <div class="collapse mt-3" id="infoExtra">
+        <img src="assets/img/papas.png" class="card-img-top img-fluid" alt="Papas Bongo's Grill">
+        <div class="card-body">
+            <h3 class="card-title"><i class="fa-solid fa-bowl-rice"></i> Papas fritas</h3>
+            <p class="card-text">Doradas, crujientes y siempre irresistibles. Nuestras papas son el acompañamiento perfecto o la 
+                estrella del plato, preparadas al momento y llenas de sabor. Disfrútalas solas o con toppings y salsas que las llevan 
+                al siguiente nivel.</p>
+        </div>
+    </div>
+</div>
+
+<section class="container mb-5" id="menu">
+    <h2 class="text-center mb-4">Menú</h2>
+    <div class="card card-body">
+        <img src="assets/img/menu.jpeg" alt="Menu Bongo's Grill">
+    </div>
+</section>
+
+
+<section class="container mb-5" id="contacto">
+    <h2 class="text-center mb-4">Contacto</h2>
+
+    <form>
+        <div class="mb-3 form-group">
+            <label>Nombre</label>
+            <input type="text" class="form-control" placeholder="Tu nombre">
+        </div>
+
+        <div class="mb-3 form-group">
+            <label>Email</label>
+            <input type="email" class="form-control" placeholder="correo@email.com">
+        </div>
+
+        <div class="mb-3 form-group">
+            <label>Comentarios</label>
+            <textarea class="form-control" rows="4"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+</section>
+
+<footer class="footer text-center bg-light p-4">
+    <p>© 2025 Bongo's Grill</p>
+    <a href="https://www.tiktok.com/@bongosgrill" target="_blank"><i class="fa-brands fa-tiktok"></i></a> |
+    <a href="https://www.facebook.com/profile.php?id=61557505001664" target="_blank"><i class="fa-brands fa-facebook"></i></a> |
+    <a href="https://www.instagram.com/bongos_grill" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
