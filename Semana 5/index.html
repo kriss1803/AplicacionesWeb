@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Galería de Imágenes Interactiva</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-dark">
+
+  <div class="container py-4">
+
+    <h1 class="text-center mb-4" style="color:aliceblue">Galería de Imágenes</h1>
+
+    <!-- Controles -->
+    <div class="row g-2 mb-4">
+      <div class="col-md-8">
+        <input type="url" id="imageUrl" class="form-control" placeholder="Ingresa la URL de la imagen">
+      </div>
+      <div class="col-md-2 d-grid">
+        <button id="addImage" class="btn btn-primary"><i class="fa-solid fa-plus"></i> Agregar Imagen</button>
+      </div>
+      <div class="col-md-2 d-grid">
+        <button id="deleteImage" class="btn btn-danger"><i class="fa-solid fa-trash"></i> Eliminar Imagen</button>
+      </div>
+    </div>
+
+    <!-- Galería -->
+    <div id="gallery" class="row g-3">
+        <div class="col-sm-6 col-md-4 col-lg-3">
+            <img src="assets/img/flor.jpg" class="img-fluid gallery-img">
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-lg-3">
+            <img src="assets/img/paisaje.jpg" class="img-fluid gallery-img">
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-lg-3">
+            <img src="assets/img/tigre.jpg" class="img-fluid gallery-img">
+        </div>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
