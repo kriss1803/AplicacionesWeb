@@ -1,4 +1,4 @@
-# Galería de Imágenes con Bootstrap
+# Galería de Imágenes Interactiva
 
 Aplicación web interactiva desarrollada con:
 
